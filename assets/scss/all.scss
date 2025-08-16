@@ -1,0 +1,13 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+
+@import "./helper/variables";
+@import "./helper/variables-dark";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./utils/utilities";
+@import "bootstrap/scss/utilities/api";
+@import "./layout/header";
+@import "./pages/index";
+@import "./base/base";

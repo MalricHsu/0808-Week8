@@ -1,0 +1,63 @@
+.index-banner {
+  background-image: url("../images/index/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 38vh;
+  padding-top: 112px;
+}
+
+.w-720 {
+  max-width: 720px;
+}
+.index-recommend {
+  background-color: #221f1e;
+  .card {
+    width: 277px;
+  }
+}
+
+@media (min-width: 992px) {
+  .index-banner {
+    min-height: 100vh;
+  }
+  .mt212 {
+    margin-top: 212px !important;
+  }
+  .index-recommend {
+    .card {
+      width: 25%;
+      max-width: 416px;
+      height: 600px;
+      transition: width 0.5s;
+      a {
+        opacity: 0;
+      }
+      &:hover {
+        width: 100%;
+        a {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .offset-row {
+    transform: translateX(80px);
+  }
+  .index-intro {
+    background-image: url("../images/index/deco-text.svg"),
+      url("../images/index/deco-bg.svg");
+    background-position: calc(3%) calc(55%), center;
+    background-size: 12%, contain;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
+
+.favorite-icon-wrapper {
+  /* 將容器變成圓形 */
+  width: 56px; /* 寬度 */
+  height: 56px; /* 高度 */
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
