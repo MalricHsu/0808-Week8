@@ -4,11 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about</title>
+    <title>Week8 ZOBBAA!旅遊網站｜個人資訊</title>
+    <%- include('./layout/icon-link'); -%>
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <h1>我是about</h1>
+    <main>
+      <section class="about">
+        <div class="container about-banner">
+          <div class="position-relative">
+            <img
+              src="../assets/images/user/hero.png"
+              alt=""
+              class="img-fluid object-fit-cover rounded-4"
+            />
+            <a href="#" class="text-light position-absolute bottom-0 end-0 m-7">
+              <span class="material-symbols-outlined me-2 align-bottom">
+                edit </span
+              >更換封面
+            </a>
+            <div class="position-relative">
+              <img
+                src="../assets/images/user/avatar-1.png"
+                alt=""
+                style="width: 160px; height: 160px"
+                class="position-absolute top-100 start-50 translate-middle border-4 border-primary rounded-circle mt-30px"
+              />
+              <a href="#">
+                <span
+                  class="material-symbols-outlined position-absolute top-100 start-50 translate-middle me-2 align-bottom p-2 bg-primary rounded-circle text-light ms-55 mt-5"
+                >
+                  edit
+                </span></a
+              >
+            </div>
+          </div>
+          <div class="mt-10 text-center mb-lg-12 mb-8">
+            <h3 class="fs-lg-6 text-primary fw-bold mb-1">Jessica</h3>
+            <p class="text-neutral-80">jessica.yen@gmail.com</p>
+          </div>
+          <div class="bg-light p-6 shadow rounded-4">
+            <div class="row">
+              <div
+                class="col-4 border-end border-neutral-40 text-nowrap d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a href="#" class="border-bottom border-primary-40 border-3">
+                  我的帳號</a
+                >
+              </div>
+              <div
+                class="col-4 border-end border-neutral-40 text-nowrap d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a href="#" class="border-bottom border-white border-3"
+                  >訂單管理</a
+                >
+              </div>
+              <div
+                class="col-4 text-nowrap d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a href="#" class="border-bottom border-white border-3"
+                  >我的收藏</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法:
   // base: '/Repository 的名稱/'
-  base: "/0808-WEEK8/",
+  base: "/0808-Week8/",
   plugins: [
     liveReload(["./layout/**/*.ejs", "./pages/**/*.ejs", "./pages/**/*.html"]),
     ViteEjsPlugin(),

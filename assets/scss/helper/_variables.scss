@@ -347,6 +347,7 @@ $theme-colors: (
   "primary-120": $primary-120,
   "primary-10": $primary-10,
   "primary-80": $primary-80,
+  "primary-40": $primary-40,
   // "secondary": $secondary,
   "success": $success-100,
   "info": $info-100,
@@ -598,7 +599,8 @@ $border-widths: (
   1: 1px,
   2: 2px,
   3: 3px,
-  4: 4px,
+  4: 20px,
+  //4px,
   5: 5px,
 ) !default;
 $border-style: solid !default;
